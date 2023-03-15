@@ -1,0 +1,57 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.userWords": ["Drona", "Drona's"],
+    "workbench.editor.enablePreview": false,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      },
+      "Ubuntu (WSL)": {
+        "path": "C:\\Windows\\System32\\wsl.exe",
+        "args": ["-d", "Ubuntu"]
+      }
+    },
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "solidity.telemetry": true,
+    "[solidity]": {
+      "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "afterDelay",
+    "editor.guides.bracketPairs": "active",
+    "workbench.iconTheme": "material-icon-theme",
+    "cSpell.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "tabnine.experimentalAutoImports": true,
+    "[rust]": {
+      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.openRepositoryInParentFolders": "never",
+    "rapidapi.terminalLink.enabled": false,
+    "editor.codeActionsOnSave": {},
+    "workbench.statusBar.visible": false
+  }
+  
