@@ -1,0 +1,13 @@
+code editor : VSC ( but trying to get used to vim )
+extensions  : cph
+
+<-- HOW TO have <bits/std.h> included in VSC -->
+
+1)VSC looks for all the header files in a folder called "include":
+    Eg: C:\Program Files\C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\Community\VC\Tools\MSVC\14.34.31933\include
+
+    It could be in Program Files (x86) also. What you have to look for is 'Microsoft Visual Studio\2022' 
+    or whatever year you are running. Then find VC ( has all the config for VSC).
+
+2) clone the repo https://github.com/priyank-mungra/bits.git if you don't already have bits folder in
+    your mingw folder

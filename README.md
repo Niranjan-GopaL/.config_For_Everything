@@ -1,2 +1,2 @@
 # Makes my life way better
-All of my configurations, customizations across my editors, terminals, and operating systems
+All of my configurations, customizations across my editors, terminals, set-ups and operating systems
