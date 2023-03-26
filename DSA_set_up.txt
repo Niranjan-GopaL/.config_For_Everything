@@ -1,5 +1,6 @@
 code editor : VSC ( but trying to get used to vim )
 extensions  : cph
+lang        : python and c++ ( trying to fool around in Rust but hard time )
 
 <-- HOW TO have <bits/std.h> included in VSC -->
 
