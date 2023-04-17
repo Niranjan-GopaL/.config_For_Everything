@@ -1,0 +1,22 @@
+DOWNLODING Neovide - A Blog 
+
+
+
+
+1) install RUST
+2) CHOCOLATEY (in powershel admin mode, copy the long command from website)
+3) Using chocolatey:- install cmake:- choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y
+4) install llvm:- choco install llvm -y
+
+5) clone the neovide repo to Program Files in C
+   open powershell in admin mode ( or turns out that even git bash in admin mode would work.
+				Normally all the local disks are there in a folder called 'mnt' in root dir but 
+				It so happens that in / there is dir for c and d even though on ls -a we can't see it)
+	
+  cargo build --release
+{ whenever new updates come just do :- git pull and then again cargo build --release }
+
+6) cd .\target\release\
+   .\neovide.exe 
+
+VOILAAA!!!!!
