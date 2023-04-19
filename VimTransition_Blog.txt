@@ -1,0 +1,21 @@
+LEARNING VIM BLOG ----------------------------------------------------------------------------------------------------->
+
+It is my intention to master Vim so that it can increase my efficiency 10 folds.
+
+I am not thorough with home row. 
+I was extremely confortable with VS code with all my setting tailor made to suit my preferences.
+
+|||||||||||||||||||||||||||||(STEP 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> Installed Vim in VS code extension. 
+
+I had tried installing nvim in wsl, but I can't even sudo apt update in wsl and I tried fixing it but it was of no use.
+Then I finally after various hurdles, installed nvim on Win 10 using choco ( a package manager that I am not a huge fan of.)
+And then NEOVIDE ( might be my fav ) came for the rescue. How I did it is mentioned in <insert link to the neovidesetupis_hell here>
+
+
+|||||||||||||||||||||||||||||(STEP 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> I quickly found myself constantly switching between VS Code (when I am seriously coding) and Vim EMulator (when I force 
+myself to learn) and within 2 days , got good with basics by following the https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md 
+(The doc for the Vim emulator is pretty good)
