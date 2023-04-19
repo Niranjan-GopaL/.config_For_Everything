@@ -1,9 +1,13 @@
 LEARNING VIM BLOG ----------------------------------------------------------------------------------------------------->
 
-It is my intention to master Vim so that it can increase my efficiency 10 folds.
+OBJECTIVE:- BE proficient enough with Vim so that you can start using Nvim or Neovide.
 
-I am not thorough with home row. 
-I was extremely confortable with VS code with all my setting tailor made to suit my preferences.
+INITIALLY :-
+I am not thorough with home row.I was extremely confortable with VS code with
+all my setting tailor made to suit my preferences. I can use VS code almost without using the mouse.
+I will be forced to incease my typing speed.
+
+
 
 |||||||||||||||||||||||||||||(STEP 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -12,9 +16,20 @@ I was extremely confortable with VS code with all my setting tailor made to suit
 I had tried installing nvim in wsl, but I can't even sudo apt update in wsl and I tried fixing it but it was of no use.
 Then I finally after various hurdles, installed nvim on Win 10 using choco ( a package manager that I am not a huge fan of.)
 And then NEOVIDE ( might be my fav ) came for the rescue. How I did it is mentioned in <insert link to the neovidesetupis_hell here>
+You have to be careful to choose only from unused keybindings in Vim and VS code. Alt key combinations are unused in Vim
 
 
-|||||||||||||||||||||||||||||(STEP 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+|||||||||||||||||||||||||||||(STEP 2)|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> Set Up Short cut Key Binding for activating and disabling Vim. ( In Status Bar you can see that {I have keybinding for it's visibility also!})
+-> Set Up relative line number in VS Code (In settings just type "line numbers":- on, relative, interval)
+-> Set up leader to be space ( Maybe I'll use ASTROVIM lol!)
+
+
+
+
+|||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 -> I quickly found myself constantly switching between VS Code (when I am seriously coding) and Vim EMulator (when I force 
 myself to learn) and within 2 days , got good with basics by following the https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md 

@@ -1,0 +1,105 @@
+git add . && git commit -m "" && git push ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
+
+
+IN VS CODE :----------------------------------------------------------------------------
+
+-- [[[[[[[[[[Keyboard shortcuts (ctrl+k+s) -> CONFIGURE WHATEVER YOU WANT]]]]]]]] 
+-- SETTINGS.JSON (ctrl+J + K) -> Setting you made to your editor
+-- KEYBINDINGS.JSON (ctrl+J + L)  -> Keybinding you made
+
+
+DON'T USE YOUR SIDEBAR IN VS CODE----------------------------------------------------
+
+FILES UTIL
+
+
+ctrl + alt + D => Opens neovide [you need to have desktop shortcut for it to work?, Nah search about it later.]
+
+NEOVIM AND NEOVIDE
+- the tools in 'C:/' has ALL THE NVIM CONFIG STUFF
+- h=go through controls from neovide
+
+WINDOW TERMINAL COMMANDS
+alt + shift + => New terminal HOrizontal
+alt + shift - => New terminal Vertical
+ctrl + shift + w => closing the window
+
+
+HOW TO CREATE A SHORTCUT KEY IN WINDOWS:-
+App -> Properties -> Shortcut -> Shortcut Key (That Easy)
+
+STUFF TO BUY
+A4 sheets
+Notebooks (short and small)
+Black Pin Point
+
+
+
+VIRTUAL BOX IS A HYPERVISOR
+
+in wsl:
+/mnt/
+THAT IS WHERE ALL THE LOCAL DISKS ARE KEPT
+
+Themes : 
+(italics better than normal)
+Pandas
+Night Owl
+Palenight italic
+Dracula
+Andromeda Italic
+Dark 	
+
+ctrl + 0 + 0 => move cursor to file sidebar
+
+
+ctrl + 1 => bash in tab 1
+ctrl + 2 => notes.txt in tab 2
+
+ctrl K + ctrl O => OPEN A FOLDER INSIDE  VS CODE 
+
+ctrl + K in github => EASY WAY TO SEARCH FOR REPOS AND MANY OTHER STUFF
+
+ctrl + alt + up/down => multi cursor up or down
+ctrl + D => Multi cursor at next instance of that word
+escape => to escape multi curosr mode
+
+WIFI USERNAME AND PASSWORD: (windows security will ask this:- )
+USERNAME : IIITB/Niranjan.Gopal
+PASSWORD :Zog30050
+
+Mega password :
+C0git0,,Erg0Sum
+
+119.161.98.68/32
+My IP Address
+
+niranjangopal
+Acta,,N0nVerba
+
+Seed phrase or Secrete Recovery phrase:
+shoot slender topple neck best cluster crunch escape baby sort skate canoe
+
+
+ALT IS THE BEST KEY IN KEYBOARD FOR WIN!!!!
+
+
+HOW TO CHANGE FORM BG WITHOUT USING YOUR MOUSE
+shift + F10 => expand on-right-click menu
+then press a , it'll set the bg image (no need to navigate)
+
+command palatte in windows terminal gives all the keybinding and hot keys available
+
+SWITCH BETWEEN VS CODE THEMES IT'S SOOO AMAZING (CTRL + K , T)
+
+Github Co-pilot explains SO FUCKING WELL. Watch how to get started with that
+
+
+
+ctrl+ 0 => foucs on files and folder struct
+space => expand folder
+enter => open file and fuocus back on file in the editor workspace
+ctrl + 1 => change focus from folder sidebar to editor workspace
+
+ctrl + shift + X => Extensions
+ctrl + shift + E => Folders
