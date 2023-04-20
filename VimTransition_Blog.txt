@@ -9,7 +9,7 @@ I will be forced to incease my typing speed.
 
 
 
-|||||||||||||||||||||||||||||(STEP 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||(DAY 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 -> Installed Vim in VS code extension. 
 
@@ -27,6 +27,44 @@ You have to be careful to choose only from unused keybindings in Vim and VS code
 -> Set up leader to be space ( Maybe I'll use ASTROVIM lol!)
 
 
+|||||||||||||||||||||||||||||(STEP 3)|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> Learn Vim VS Code Extension , I
+
+COMMAND NUMBER MOTION
+
+
+V => Visual line mode
+y yank and p how many times you want
+
+hjkl
+
+W w b 
+
+0
+
+gg G
+
+dd -> deletes entire line
+u -> undo
+ctrl + r -> redo
+
+you can aug numbers with these commands as in 
+3dd
+3u
+3ctrl+R
+
+
+going to v and using motions to select whatever I want to delete
+going to V and selecting lines to delete
+
+This txt file is written using Vim.
+
+IT will take a while to get used to switching between visual and insert especially.
+Understtod the usefullness of i and a
+
+Also I need to be able to get my typing speed up if I am to really get efficient.
+The road is goign to be really long
 
 
 |||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||

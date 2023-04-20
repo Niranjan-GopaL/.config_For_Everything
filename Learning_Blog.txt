@@ -1,11 +1,19 @@
 git add . && git commit -m "" && git push ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
 
 
+
+yts.mx => HELL YEAH!!!	
+https://temp-mail.org/en/  => FAKE EMAILS LESS GOO!!!!
+
+
+
 IN VS CODE :----------------------------------------------------------------------------
 
+Rmember your keybinding must be easy to type, doesn't have to be neumonic
+
 -- [[[[[[[[[[Keyboard shortcuts (ctrl+k+s) -> CONFIGURE WHATEVER YOU WANT]]]]]]]] 
--- SETTINGS.JSON (ctrl+J + K) -> Setting you made to your editor
--- KEYBINDINGS.JSON (ctrl+J + L)  -> Keybinding you made
+-- SETTINGS.JSON (ctrl+o+p) -> Setting you made to your editor
+-- KEYBINDINGS.JSON (ctrl+k+l)  -> Keybinding you made
 
 
 DON'T USE YOUR SIDEBAR IN VS CODE----------------------------------------------------
