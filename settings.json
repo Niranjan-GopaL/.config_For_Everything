@@ -1,57 +1,213 @@
 {
-    "workbench.colorTheme": "Solarized Dark",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "cSpell.userWords": ["Drona", "Drona's"],
-    "workbench.editor.enablePreview": false,
-    "workbench.sideBar.location": "right",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.profiles.windows": {
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Git Bash": {
-        "source": "Git Bash"
-      },
-      "Ubuntu (WSL)": {
-        "path": "C:\\Windows\\System32\\wsl.exe",
-        "args": ["-d", "Ubuntu"]
-      }
+  "window.menuBarVisibility": "toggle",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "cSpell.userWords": ["Drona", "Drona's"],
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "[python]": {
-      "editor.formatOnType": true
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true,
-    "solidity.telemetry": true,
-    "[solidity]": {
-      "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    "Git Bash": {
+      "source": "Git Bash"
     },
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.autoSave": "afterDelay",
-    "editor.guides.bracketPairs": "active",
-    "workbench.iconTheme": "material-icon-theme",
-    "cSpell.enabled": false,
-    "editor.mouseWheelZoom": true,
-    "css.format.spaceAroundSelectorSeparator": true,
-    "tabnine.experimentalAutoImports": true,
-    "[rust]": {
-      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "solidity.telemetry": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "editor.guides.bracketPairs": "active",
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "tabnine.experimentalAutoImports": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.openRepositoryInParentFolders": "never",
+  "rapidapi.terminalLink.enabled": false,
+  "editor.codeActionsOnSave": {},
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "C:\\php\\php.exe",
+    "python": "python",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.fontSize": 20,
+  "git.autofetch": true,
+  "[markdown]": {
+    "editor.wordWrap": "off"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "block",
+  "workbench.colorTheme": "Monokai Dimmed",
+  "git.postCommitCommand": "push",
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "terminal.integrated.env.windows": {},
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "prettier.tabWidth": 4,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+
+
+  // <--------------------------VIM CONFIGS------------------------------------------------------------------------------------------------------------------------------------------------------>
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
     },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "git.openRepositoryInParentFolders": "never",
-    "rapidapi.terminalLink.enabled": false,
-    "editor.codeActionsOnSave": {},
-    "workbench.statusBar.visible": false
-  }
-  
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.cursorStylePerMode.insert": "block",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "line",
+  "vim.cursorStylePerMode.visual": "line",
+
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+  ],       
+   "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+  ],"vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.leader": "<space>",
+
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": false,
+    // Copy
+    "<C-c>": false,
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+
+  }, 
+  // <--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  "editor.lineNumbers": "relative",
+}

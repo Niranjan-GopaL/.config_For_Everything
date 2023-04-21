@@ -6,6 +6,15 @@ yts.mx => HELL YEAH!!!
 https://temp-mail.org/en/  => FAKE EMAILS LESS GOO!!!!
 
 
+GOAL ================================================================================================
+
+
+Outlook was always such an overwhelming expierience. In the future (either when you QEMU is set up or Mayank Bhaiya gives you a linux)
+NeoMutt is the way to go. Set it up.
+
+===============================================================================================================
+But right now :- WE SET UP MAILSPRING YAY!!!, configured our imap and smtp so that mailspring can check those servers
+ 	
 
 IN VS CODE :----------------------------------------------------------------------------
 
@@ -19,6 +28,10 @@ Rmember your keybinding must be easy to type, doesn't have to be neumonic
 DON'T USE YOUR SIDEBAR IN VS CODE----------------------------------------------------
 
 FILES UTIL
+
+
+<-------------------------------------------------------------------------------------------------->
+Virtual box is shit but don't loose hope
 
 
 ctrl + alt + D => Opens neovide [you need to have desktop shortcut for it to work?, Nah search about it later.]
