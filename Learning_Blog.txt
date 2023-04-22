@@ -1,5 +1,56 @@
 git add . && git commit -m "" && git push ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
 
+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 => MY OERSONAL ACCESS TOKEN FOR GITHUB
+
+
+MY ZSH CONFIG IN WIN TERMINAL-----------------------------------------------------------------------------------------
+
+F11 => Maximised Focus mode ( That looks insanely awesome!! )
+alt + arrows to move from one split to another
+Just learn LINUX now , bash script , then you will be golden
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+WHY YOU NEED TO MASTER TERMINAL EDITORS :---------------------------------------------------------------------------
+
+
+Been using Emacs for 9 years at this point. Right now, I'm such an outlier since everyone uses VsCode but recently 
+we picked up some infrastructure work migrate a lot of our services from Service Fabric to k8s, and what was so telling 
+about the nature of this work is that it really exposed the biggest flaw that a lot of developers have right now and 
+that is that they don't their way around the filesystem that well. Occasionally, I still use Vim whenever I have 
+to ssh into one of our clusters to debug something because it's more lightweight, but even in a resource limited 
+environment I still know my way around, and seeing how reliant a lot of engineers that a lot are more senior than 
+I am on their IDE really justified my use of terminal editors. The point of what I'm trying to say is that in software 
+development there is a hell of a lot more to it than just writing code. Having and IDE or using tools like VsCode may 
+make it easier to write code and debug when you're a beginner and your apps only live on your localhost but once you 
+progress into the realm of developing globally distributed systems and your code base becomes exponentially larger and 
+more complex, you won't have the luxury of running the code you're writing in a feature rich editor like an IDE and a 
+majority of the time debugging involves you querying output logs or remotely connecting into one of your nodes and 
+using command line tools to figure out what went wrong. Interpret this however you like.
+
+
+												---- Some Senior Engineer
+
+-------------------------------------------------------------------------------------------------
+emacs in C:\emacs
+Extracting C:\ProgramData\chocolatey\lib\emacs.portable\tools\emacs-28.2_x64.zip to C:\tools...
+
+
+zsh------------------------------------------------------------------------------------------------------
+
+
+(autosuggestions, syntax highlighting, list of all args and flags possible) :- https://www.youtube.com/watch?v=bTLYiNvRIVI
+Learn how to set up your own zsh config (after you learn bash scripting in that linux course)
+
+Installed Command line fuzzy finder (fzf) :- https://github.com/junegunn/fzf
+---------------------------------------------------------------------------------------------------------
+
+ls -lah 
+z-shell is the most awesome shell
+
+sudo su (loggs you in as a root user / super user)
+USE WINDOWS TERMINAL
 
 
 yts.mx => HELL YEAH!!!	
@@ -10,7 +61,7 @@ GOAL ===========================================================================
 
 
 Outlook was always such an overwhelming expierience. In the future (either when you QEMU is set up or Mayank Bhaiya gives you a linux)
-NeoMutt is the way to go. Set it up.
+NeoMutt is the way to go. Set it up.)
 
 ===============================================================================================================
 But right now :- WE SET UP MAILSPRING YAY!!!, configured our imap and smtp so that mailspring can check those servers
@@ -20,7 +71,7 @@ IN VS CODE :--------------------------------------------------------------------
 
 Rmember your keybinding must be easy to type, doesn't have to be neumonic
 
--- [[[[[[[[[[Keyboard shortcuts (ctrl+k+s) -> CONFIGURE WHATEVER YOU WANT]]]]]]]] 
+-- [[[[[[[[[[ Keyboard shortcuts (ctrl+k+s) -> CONFIGURE WHATEVER YOU WANT ]]]]]]]] 
 -- SETTINGS.JSON (ctrl+o+p) -> Setting you made to your editor
 -- KEYBINDINGS.JSON (ctrl+k+l)  -> Keybinding you made
 

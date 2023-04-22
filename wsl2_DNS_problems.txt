@@ -1,0 +1,11 @@
+WHEN WSL2 HAVE NETWORKING PROBLEMS :-
+
+sudo ping 8.8.8.8 ( check if it can recieve packets from google's IP ? )
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null ( addes 8.8.8.8 to resolv.conf)
+
+TRY OUT EACH OF THIER SOLUTION :- https://github.com/MicrosoftDocs/WSL/issues/937
+
+<---------------
+Also FYI :-
+
+sudo su 	(logs you in as a super user, i.e root)
