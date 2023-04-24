@@ -1,7 +1,53 @@
 git add . && git commit -m "" && git push ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
-
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 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 => MY OERSONAL ACCESS TOKEN FOR GITHUB
+Wallpaper flare - crop to our screen resolution
 
+
+NV CHAD----------------------------------------------------------------------------------------------------
+
+sudo apt-get purge --auto-remove neovim (For re-installing )
+rm -rf ~/.local/share/nvim
+
+
+
+1) apt does not install latest version by default so I havde to add https://launchpad.net/~neovim-ppa/+archive/ubuntu/stable
+
+Reddit user :- 
+
+I use the ppa:
+
+	http://ppa.launchpad.net/neovim-ppa/stable/ubuntu bionic/main amd64
+	having followed the instructions at:
+
+	https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu
+
+	I like being able to
+
+	sudo apt update && sudo apt upgrade
+	with few outside packages to remember.
+
+2) now on sudo apt install neovim (v0.7)
+
+
+HIDE DESKTOP ICONS (F12), HIDE TASKBAR (ctrl+alt+Q), MAKE TASKBAR APPEAR ON THE RIGHT ITS SOOO GOOD ----------------------------------------------------------------------------------------------
+SO IF YOU WANNA TAKE A BREATEH:- JUST CTRL+D and THERE !!!! THE VIEW 
+YOU CAN SCROLL IN TO ZOOM IN WINDOWS TERMINAL
+Press F12 to hide all the sdesktop icons (By Default they are hidden , to make them appear)
+https://www.youtube.com/watch?v=mG2eHOR08VY
+THESE GUYS ARE AWESOME !!! CHECK THEM LATER FOR WINDOWS SCRIPTS with HOT KEYS https://www.autohotkey.com
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+I WORK ON MULTIPLE MULTIPLE PROJECTS-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+And to keep track of all the editors is not that good of an expirience. 
+Heard Tmux is a really good solution (Tmuxifier to be precise)
+
+-------------------------------------------------------------------------------------------------------------------------
 
 MY ZSH CONFIG IN WIN TERMINAL-----------------------------------------------------------------------------------------
 
@@ -10,9 +56,9 @@ alt + arrows to move from one split to another
 Just learn LINUX now , bash script , then you will be golden
 
 
-----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-WHY YOU NEED TO MASTER TERMINAL EDITORS :---------------------------------------------------------------------------
+WHY YOU NEED TO MASTER TERMINAL EDITORS :---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Been using Emacs for 9 years at this point. Right now, I'm such an outlier since everyone uses VsCode but recently 
@@ -32,7 +78,7 @@ using command line tools to figure out what went wrong. Interpret this however y
 
 												---- Some Senior Engineer
 
--------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 emacs in C:\emacs
 Extracting C:\ProgramData\chocolatey\lib\emacs.portable\tools\emacs-28.2_x64.zip to C:\tools...
 
