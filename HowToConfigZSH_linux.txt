@@ -8,5 +8,14 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 execzsh
 
+(Be sure to have a Nerd Font installed for full capabilities)
+to configure the terminal again :- 
+
+p10k cnofigure
+
+
+
+
 THEN CUSTOMIZE.
 For more control over the customisation :-
+edit the .zshrc file
