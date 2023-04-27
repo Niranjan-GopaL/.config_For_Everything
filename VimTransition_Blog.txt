@@ -124,7 +124,7 @@ The road is goign to be really long
 whatever I lost count. But I am using VIMIUM NOW voooo~
 ? - shows all commands		
 
-
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 There are many distros for nvim :- Lunar vim , NVChad , Astro VIm , etc
 
 We'll go with NVChad (Aesthetically pleasing UI)
@@ -148,12 +148,27 @@ We'll go with NVChad (Aesthetically pleasing UI)
 - Better way to navigate files (sp f f)
 	to navigate a file that we opened and is in our buffers (sp f b) ("open file in buffer")
 
+-Window Navigation (ctrl+ hjkl)<<\\\\
+	                       	    |
+:sp (split)		            |
+:vsp (verticle split) [now use this-]
+
+
+- toggle line number => (sp n)
+  relative line numbers => (sp r n)
+
+- Normally open buffers are pretty hard to navigate in vim BUT NVCHAD HAS 
+	tabbufline (the top bar shows all the open buffers (new tab in VS code and Chrome) and use TAB and shift TAB )
+	sp + x => to close our current buffer (close current file)
+
+- f
+
+
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
-
-
-
+Wayy to many tests and stuff. I guess I'll try to just keep by consistent. No time to learn intensely.
 
 
 |||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||

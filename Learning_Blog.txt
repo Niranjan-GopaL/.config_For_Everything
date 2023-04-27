@@ -1,11 +1,11 @@
 git add . && git commit -m "" && git push ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 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 => MY OERSONAL ACCESS TOKEN FOR GITHUB
-waka_5b813d0b-cd23-4a23-bc4d-8de6f8580f1d => Wakatime API key
+waka_afb5505a-68a4-4673-b186-c3c21d5b1e12 => Wakatime API key
 Wallpaper flare - crop to our screen resolution
 
 
-
+Oh-my-posh customization and settings.json customisation on Terminal
 
 
 When I code the taskbar on the left is getting in my way. SO that time I move it to right
