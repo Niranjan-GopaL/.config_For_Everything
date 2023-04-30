@@ -8,6 +8,8 @@ all my setting tailor made to suit my preferences. I can use VS code almost with
 I will be forced to incease my typing speed.
 
 
+use sp + w + k => ALL KEYBINDINGS
+
 
 |||||||||||||||||||||||||||||(DAY 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -180,6 +182,15 @@ We'll go with NVChad (Aesthetically pleasing UI)
 
 
 Wayy to many tests and stuff. I guess I'll try to just keep by consistent. No time to learn intensely.
+
+
+|||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+NVChad is in C:/Program Files x86
+
+git pull for latest changes
+
+
+
 
 
 |||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||

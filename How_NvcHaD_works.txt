@@ -1,0 +1,88 @@
+ ||||||||||||||||||||||||||||||||||||| NVCHAD IS THE BEST ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+''''
+Add your mappings to custom/mappings.lua
+Add your plugins to custom/plugins.lua
+''''
+
+
+
+
+├── init.lua ( main init.lua )
+│
+├── lua
+│   │
+│   ├── core
+│   │   ├── default_config.lua
+│   │   ├── mappings.lua
+│   │   ├── utils.lua 
+│   │   └── init.lua  
+│   │
+│   ├── plugins
+│   │    ├── init.lua 
+│   │    └── configs
+│   │        ├── cmp.lua
+│   │        └── other configs
+│   │  
+│   │   USER CONFIG  
+│   │  
+│   ├── custom *
+│   │   ├── chadrc.lua
+│   │   ├── init.lua
+│   │   ├── more files, dirs
+
+
+
+
+------ ( 1] --------
+From now on, whenever we talk about paths, keep in mind that they're relative to the lua folder 
+in your nvim config (by default it should be ~/.config/nvim/).
+
+
+-   It is not recommended to make changes outside the custom dir, 
+    because NvChad config is a repo and it gitignores only the custom dir, 
+    it uses git pull to update the config.
+
+-   Any other file outside the custom dir will be treated as a change by git, 
+    meaning that NvChad will not be able to fast-forward the pull.
+
+
+------ ( 2] --------
+ALL YOU NEED FOR KNOWING THE KEYMAPS --
+--  NvCheatsheet
+--  Telescope keymaps
+
+
+------ ( 3] --------
+SNIPPETS :-
+
+(I) NvChad uses luasnip plugin for handling snippets, by default it uses friendly-snippets plugin which 
+    provides snippets for many languages .
+    But you would want to extend or add your own snippets so read luasnip docs. 
+    https://github.com/L3MON4D3/LuaSnip/blob/master/DOC.md#loaders 
+
+
+
+(II) INSIDE custom/init.lua :-
+
+-- vscode format i.e json files
+vim.g.vscode_snippets_path = "your snippets path"
+
+-- snipmate format 
+vim.g.snipmate_snippets_path = "your snippets path"
+
+-- lua format 
+vim.g.lua_snippets_path = vim.fn.stdpath "config" .. "/lua/custom/lua_snippets" 
+-- if that two dots confise you go spend FUCKING 2 MINUTES IN LUA TUT in nvchad doc (its that easy) 
+specifically loops section
+
+
+------ ( 4] --------    
+
+NvChad uses lazy.nvim for plugins management. Basically, NvChad expects """a user plugin table""", which 
+then gets merged with the d"""efault plugins table""". You can find the default table 
+in: lua/plugins/init.lua.
+
+------ ( 5] --------    
+
+Base46 is NvChad's highlight performant theming plugin and has many ported themes ( around 57+ ).

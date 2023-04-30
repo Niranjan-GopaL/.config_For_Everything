@@ -6,11 +6,85 @@ Wallpaper flare - crop to our screen resolution
 
 
 
+
+
+
+
+
+
+HOW I SOLVED A GIT PROBLEM -----------------------------------------------------------------------------------------------
+
+I made a Repo in Github and made a README.md and 'uploaded some files' (cuz it was easier)
+
+Then when I got down to coding => 
+- I made created an elaborate project
+- I forgot to clone the repo and to code in it.
+
+So instead of the easy way (cloning the repo and copy the project to that folder and pushing to) , I wanted to learn something new:-
+
+I initialised my local project as git repository  
+
+`git init`
+`git branch -m master main`
+
+I committed every thing
+
+`git add . && git commit -m "So far so good." `
+
+I set my remote as THE URL OF THE GITHUB REPO I MADE (IMPORTANT!!!!!)
+
+`git remote add origin https://github.com/Niranjan-GopaL/__Platform_Game.git`
+`git remote -v`  (to check if remote is correct)
+
+when I tried to push it said merge conflict. Unrelated history. Fair enough. The github repo had some files , 
+my porject had some files both were different. 
+
+
+I then did the following two things without actually understanding what they meant:-
+
+`get fetch`
+`git branch --set-upstream-to=origin/main main`
+
+
+Stackoverflow gave me this
+`git pull --allow-unrelated-histories`
+
+
+now I git pulled then (I got all the stuff in my github repo), git pushed everything (so now 
+the github repo also had everything just like my local)
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\
+
+
+
+
+
+
+
+
+
+
+whenever you want to see where you are pushing / fetching from =>
+git remote -v  #(AS SIMPLE AS THAT, HELL YEAH!!!!!!!!!!!!!!!!!)
+
+
+In cmd :- (CHANGE COLOR THEME OF CMD REALLY EASILY)
+color 02
+color 12
+and so on 
+
+
+TMUX IN WSL ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ctrl+b+% => new verticle pane
+
+
+
 ||||||||||||||||||||||||||||||||||||||| EXTREMELY USEFUL (WHY VSC IS STILL A KING) |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 IF YOU ARE VIEWING HUGE CODE BASE :- FOLD ALL THE FUCNTIONS. SO THAT HYOU HAVE A HIGH LEVEL 
 OVERVIEW OF ALL THE FUCNTION IN THE FILE SO THAT YOU CAN DIVE DEEPER WHEREVER YOU WANT. THIS IS INSANELY USEFUL GODDDDDDDDDDD!!!!!!!!
 
+https://stackoverflow.com/questions/30067767/how-do-i-collapse-sections-of-code-in-visual-studio-code-for-windows  (for lang-specific-config)
 
 ctrl+k+0 => Fold ALL
 ctrl+k+j => UnFold All
@@ -22,6 +96,11 @@ Recursievly unfold => ctrl + k + [  (remember in keyboard as RIGHT= UNFOLDS!!!!!
 
 ctrl+k+-  => fold all excpet  (REALLY USEFULLLLLLLLLll!!!!!!!!)
 ctrl+k+=  => Unfold all except
+
+YOU CAN EVEN CREATE YOUR OWN FOLDINGS :-
+
+Ctrl + k + , => selected line FOLDED
+Ctrl + k + . => unfolded
 
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -205,12 +284,6 @@ ctrl + shift + w => closing the window
 
 HOW TO CREATE A SHORTCUT KEY IN WINDOWS:-
 App -> Properties -> Shortcut -> Shortcut Key (That Easy)
-
-STUFF TO BUY
-A4 sheets
-Notebooks (short and small)
-Black Pin Point
-
 
 
 VIRTUAL BOX IS A HYPERVISOR
