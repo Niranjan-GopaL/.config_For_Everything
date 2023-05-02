@@ -6,6 +6,22 @@ Wallpaper flare - crop to our screen resolution
 
 
 
+HOW I ADDED CARGO,RUSTC (all the binaries from rust) to wsl AND zsh ---------------------------------------------------------
+
+from rust's site I got the commad to install
+
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
+in wsl cargo,rustc all worked but in zsh it didn't. I had to had the path to .zshrc so that it could find the binaries to execute
+
+added this to .zshrc :-
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
 
 
 
@@ -60,7 +76,11 @@ the github repo also had everything just like my local)
 
 
 
+ALSO IN LINUX YOU CAN GET ASCII VALUES OF EVERYTHING REALLY EASILY -------------------------------------------------------
 
+`man ascii`
+
+ 
 
 
 whenever you want to see where you are pushing / fetching from =>
