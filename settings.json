@@ -5,7 +5,7 @@
   "cSpell.userWords": ["Drona", "Drona's"],
   "workbench.editor.enablePreview": false,
   "workbench.sideBar.location": "right",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -39,7 +39,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSave": "afterDelay",
   "editor.guides.bracketPairs": "active",
-  "workbench.iconTheme": "material-icon-theme",
   "cSpell.enabled": false,
   "editor.mouseWheelZoom": true,
   "css.format.spaceAroundSelectorSeparator": true,
@@ -72,10 +71,9 @@
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "block",
-  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.colorTheme": "Nebula Pandas Theme",
   "git.postCommitCommand": "push",
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 1,
   "terminal.integrated.env.windows": {},
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[jsonc]": {
@@ -84,7 +82,7 @@
   "prettier.tabWidth": 4,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
 
 
   // <--------------------------VIM CONFIGS------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -93,37 +91,14 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
-    },
-    {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
-    },
-    {
-      "before": ["K"],
-      "commands": ["lineBreakInsert"],
-      "silent": true
-    }
-  ],
   "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
+
   "vim.cursorStylePerMode.insert": "block",
   "vim.cursorStylePerMode.normal": "block",
   "vim.cursorStylePerMode.replace": "line",
   "vim.cursorStylePerMode.visual": "line",
 
+    // ---------------------NORMAL MODE --------------------------------------------------------------
   "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "d"],
@@ -137,8 +112,10 @@
       "before": ["<S-tab>"],
       "commands": ["workbench.action.previousEditor"]
     },
-  ],       
-   "vim.insertModeKeyBindings": [
+  ],
+
+    // ---------------------INSERT MODE --------------------------------------------------------------
+  "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
       "after": ["<Esc>"]
@@ -152,6 +129,9 @@
       "after": ["<Esc>"]
     }
   ],
+
+
+    // ---------------------VISUAL MODE --------------------------------------------------------------
   "vim.visualModeKeyBindings": [
     {
       "before": [">"],
@@ -161,7 +141,11 @@
       "before": ["<"],
       "after": ["<", "g", "v"]
     },
-  ],"vim.normalModeKeyBindingsNonRecursive": [
+  ],
+  
+  
+    // --------------------- NORMAL KEYBINDINGS MODE --------------------------------------------------------------
+  "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "d"],
       "after": ["d", "d"]
@@ -174,7 +158,7 @@
       "before": ["<leader>", "w"],
       "commands": ["workbench.action.splitEditor"]
     },
-    {
+    { 
       "before": ["<leader>", "e"],
       "commands": ["workbench.action.toggleSidebarVisibility"]
     },
@@ -191,9 +175,10 @@
       "after": ["$"]
     }
   ],
-  "vim.leader": "<space>",
 
+  // ---------------------NORMAL MODE --------------------------------------------------------------
   "vim.handleKeys": {
+    "C-w":false,
     "<C-a>": false,
     "<C-f>": false,
     // VS Code new marker @ next occurence
@@ -209,5 +194,12 @@
 
   }, 
   // <--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
   "editor.lineNumbers": "relative",
+  "workbench.iconTheme": "material-icon-theme",
+// "window.zoomLevel": 1,
+"editor.cursorSmoothCaretAnimation": "on",
+"workbench.activityBar.visible": false,
+"workbench.statusBar.visible": false,
 }
