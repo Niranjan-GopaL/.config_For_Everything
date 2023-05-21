@@ -1,0 +1,214 @@
+LEARNING VIM BLOG ----------------------------------------------------------------------------------------------------->
+
+OBJECTIVE:- BE proficient enough with Vim so that you can start using Nvim or Neovide.
+
+INITIALLY :-
+I am not thorough with home row.I was extremely confortable with VS code with
+all my setting tailor made to suit my preferences. I can use VS code almost without using the mouse.
+I will be forced to incease my typing speed.
+
+
+use sp + w + k => ALL KEYBINDINGS
+
+
+|||||||||||||||||||||||||||||(DAY 1)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> Installed Vim in VS code extension. 
+
+I had tried installing nvim in wsl, but I can't even sudo apt update in wsl and I tried fixing it but it was of no use.
+Then I finally after various hurdles, installed nvim on Win 10 using choco ( a package manager that I am not a huge fan of.)
+And then NEOVIDE ( might be my fav ) came for the rescue. How I did it is mentioned in <insert link to the neovidesetupis_hell here>
+You have to be careful to choose only from unused keybindings in Vim and VS code. Alt key combinations are unused in Vim
+
+
+
+|||||||||||||||||||||||||||||(STEP 2)|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> Set Up Short cut Key Binding for activating and disabling Vim. ( In Status Bar you can see that {I have keybinding for it's visibility also!})
+-> Set Up relative line number in VS Code (In settings just type "line numbers":- on, relative, interval)
+-> Set up leader to be space ( Maybe I'll use ASTROVIM lol!)
+
+
+|||||||||||||||||||||||||||||(STEP 3)|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> Learn Vim VS Code Extension , I
+
+COMMAND NUMBER MOTION
+
+
+V => Visual line mode
+y yank and p how many times you want
+
+hjkl
+
+W w b 
+
+0
+
+gg G
+
+dd -> deletes entire line
+u -> undo
+ctrl + r -> redo
+
+you can aug numbers with these commands as in 
+3dd
+3u
+3ctrl+R
+
+
+going to v and using motions to select whatever I want to delete
+going to V and selecting lines to delete
+
+
+bottom
+k up
+l right
+h left
+w start of next word
+e end of current word
+b backward to the start of the word
+Type a number befor command to execute command several times
+
+yy copy a whole line
+p paste clipboard
+u undo
+P paste on top of current line
+dd delete the whole line (it's in the clipboard)
+
+
+
+
+0 start of the line
+^ first word of the line
+$ end of the line
+% move to current bracket
+
+f first occurance of a characterk
+F first occurance of a character backwards
+/ search occurances (n got to next file, N go to previous one)
+? search occurances backwards (n got to next file, N go to previous one)
+
+v enter visual mode (j,k,h,l to navigate)
+V visual mode for all the line
+[in visual mode]
+< less indentation
+> more indentation
+~ change uppercase or undercase
+ab select all parenthesis
+aB select all brackets
+
+. repeat latest command
+
+} jump paragraph downwards
+{ jump paragraph upwards
+
+
+gd go to definition of the word under the cursor
+gf go to file for file under the cursor
+
+gg go to top of the line
+{line}gg go to line
+
+s change a character
+x delete a character
+X delete a character before the cursor
+
+i go to insert mode before the cursor
+a go to insert mode before the cursor
+
+
+This txt file is written using Vim.
+
+IT will take a while to get used to switching between visual and insert especially.
+Understood the usefullness of i and a
+
+Also I need to be able to get my typing speed up if I am to really get efficient.
+The road is going to be really long
+
+|||||||||||||||||||||||||||( STEP 5) ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+whatever I lost count. But I am using VIMIUM NOW voooo~
+? - shows all commands		
+
+fk vimium still has a long way to go. Certain things like (speeding up youtube vid using '>' can't work.)
+
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+There are many distros for nvim :- Lunar vim , NVChad , Astro VIm , etc
+
+We'll go with NVChad (Aesthetically pleasing UI)
+
+- https://www.youtube.com/@siduck_og/videos , Discord or HELP. ITS SO FUCKING COOOL.
+
+- OPEN CHEAAT SHEET (sp c h)
+
+- there is a custom theme switcher internally ( sp t h)
+	ctrl+n (next)
+	ctrl+p (previous)
+
+- Tree Sitter (Syntax Highlighting)
+	TSInstall <lang-name>
+	TSInstallInfo 
+(Tree sitter doesn't have syntax highlighting for every language , But there are plugins that can do this)
+
+- File Tree is provided through NVimTree (ctrl+n / space+e)
+	mark a file by m key (for easier access)
+	in a folder => A (to create a new file)
+	copy file (c), to paste file (p), rename a file (r)
+
+- Better way to navigate files (sp f f)
+	to navigate a file that we opened and is in our buffers (sp f b) ("open file in buffer")
+
+-Window Navigation (ctrl+ hjkl)<<\\\\
+	                       	    |
+:sp (split)		            |
+:vsp (verticle split) [now use this-]
+
+
+- toggle line number => (sp n)
+  relative line numbers => (sp r n)
+
+- Normally open buffers are pretty hard to navigate in vim BUT NVCHAD HAS 
+	tabbufline (the top bar shows all the open buffers (new tab in VS code and Chrome) and use TAB and shift TAB )
+	sp + x => to close our current buffer (close current file)
+
+- f
+
+
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Wayy to many tests and stuff. I guess I'll try to just keep by consistent. No time to learn intensely.
+
+
+|||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+NVChad is in C:/Program Files x86
+
+git pull for latest changes
+
+
+
+
+
+|||||||||||||||||||||||||||||(STEP 10)||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+-> I quickly found myself constantly switching between VS Code (when I am seriously coding) and Vim EMulator (when I force 
+myself to learn) and within 2 days , got good with basics by following the https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md 
+(The doc for the Vim emulator is pretty good)
+
+
+
+||||||||||||||||||||||||||||| Step 11 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+NVCHAD AND LVIM SIMULTANEOUSLY -- ()
+
+i REALLY LIKE NVCHAD, INSANELY BEGINNER FRIENDLY.
+
+reading the docs of nvchad.
+
+still don't know how to integrate wakatime to nvchad.
+
+Joined their discord server. I should probably read docs before asking really obvoius questions. 

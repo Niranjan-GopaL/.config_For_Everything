@@ -1,0 +1,5 @@
+a timer to focus on your breathing 
+github
+outlook
+
+By default open any app in full screen (f11)
