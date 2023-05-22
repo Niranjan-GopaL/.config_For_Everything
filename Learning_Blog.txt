@@ -9,6 +9,11 @@ waka_afb5505a-68a4-4673-b186-c3c21d5b1e12 => Wakatime API key
 Wallpaper flare - crop to our screen resolution
 
 
+
+
+
+
+
 FILES UTILS SHORTCUT KEYS :-----------------------------------------------------------------------------
 
 Rename :- Ctrl + SHift + Alt + R to Ctrl + SHift + Alt + N (RN as in Re Name)
