@@ -1,17 +1,25 @@
-Алиса Удружева (Alisa Udruzheva)
+	Алиса Удружева (Alisa Udruzheva)
 
 
-git add . && git commit -m "" && git push      ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
-echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
-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 => MY PERSONAL ACCESS TOKEN FOR GITHUB for ssh
-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
-waka_afb5505a-68a4-4673-b186-c3c21d5b1e12 => Wakatime API key
-Wallpaper flare - crop to our screen resolution
+	git add . && git commit -m "" && git push      ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
+	echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+	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 => MY PERSONAL ACCESS TOKEN FOR GITHUB for ssh
+	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
+	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 (latest)
+
+	waka_afb5505a-68a4-4673-b186-c3c21d5b1e12 => Wakatime API key
+	Wallpaper flare - crop to our screen resolution
 
 
 
 
+YOU ONLY NEED CTRL + P --------------------------------------------------------
 
+>  => it becomes a command 
+@  => symbols (those icons you see in drop down next to functions classes etc)
+
+
+ENBALED COMMAND CENTER --------------------- its soo cool --------------------
 
 
 FILES UTILS SHORTCUT KEYS :-----------------------------------------------------------------------------
@@ -19,8 +27,7 @@ FILES UTILS SHORTCUT KEYS :-----------------------------------------------------
 Rename :- Ctrl + SHift + Alt + R to Ctrl + SHift + Alt + N (RN as in Re Name)
 NewFile
 MoveFile
-
-
+NewFolder
 
 
 
@@ -108,7 +115,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 
 
-HOW I SOLVED A GIT PROBLEM -----------------------------------------------------------------------------------------------
+HOW I SOLVED AN ANNOYING GIT PROBLEM -----------------------------------------------------------------------------------------------
 a
 I made a Repo in Github and made a README.md and 'uploaded some files' (cuz it was easier)
 
