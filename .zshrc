@@ -22,13 +22,24 @@ alias e=explorer.exe
 alias co="code ."
 alias czsh="code ~/.zshrc"
 
+# path to stuff
+alias gotoconfig="cd /mnt/c/Users/HP/OneDrive/Desktop/.config_For_Everything"
+alias gotocodepr="cd /mnt/d/Code\ Practise/"
+alias gotorustbasics="cd /mnt/d/Code\ Practise/Rust/Learning-Rust-By-Example/basics"
+
 # code specific
 alias p=python3
-alias rc=rustc
-alias ca=cargo
+
 alias nrd="npm run dev"
 alias ni="npm i"
-# alias gacp="git add . && git commit -m 'Add all' && git push"
-alias gc='function _gacp() { git add . && git commit -m "$1"; }; _gacp'
+
+alias rc=rustc
+alias ca=cargo
+alias cr='function _cargobin(){cargo run --bin "$1"}; _cargobin'
+alias cqr='function _cargoqbin(){cargo run -q --bin "$1"}; _cargoqbin'
+
+alias gc='function _gc() { git add . && git commit -m "$1"; }; _gc'
+alias gcp='function _gcp() { git add . && git commit -m "$1" && git push; }; _gcp'
+alias gcA='function _gcA() { git add "$1"  && git commit -m "$2" ; }; _gcA'
 alias gp="git push"
 alias gs="git status"
