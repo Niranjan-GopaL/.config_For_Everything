@@ -1,0 +1,64 @@
+IF YOU TELL SOMEONE YOUR PLANE **THEN IT WONT COME TRUE** (lol but it's true) AND YOU'LL HAVE TO FACE THE SHAME OF IT NOT FULLFILLED
+
+STUFF TO DO IN THE ONE WEEK HOLIDAY --------------------------------------
+
+-   Learn more about github in 3 or 4 hours (continous)
+    (just read Atlassian and use GPT to explain analogies)
+
+-   UNDERSTANDING AND BEING ABLE TO MODIFY WHAT YOU BUILT DURING working days is THE MSOT IMPORTANT POINT:=
+    Learn React :-  Use ChatGPT, Nerd's Lessons or whatever best you find after going through your Tresure Box.
+		Make notes in Notion (You already have a React Folder)
+
+-   Get Propheteer and Youtube clone in a really good place.
+
+-   Linux Udemy Course.
+
+-   Node and Express tutorial (that build 4 projects one) and Go backend tutorial
+
+-   Make a Pull Request for the zense :-
+
+	https://github.com/zense/helpful-resources
+	
+	About Knowing your ecitor :- VS code shortcuts , importance of vim , neovim , 
+				     DOcker and Microservices
+					git and github resources. 
+				Add some helpful stuff in web dev directory
+
+
+
+
+
+
+
+FUN:-
+-   Regex in 3 hours. Why regex ? => https://www.youtube.com/watch?v=sXQxhojSdZM REALLY NICE RESOURVE https://regex101.com
+-   Learn AHK to make stuff like these :- https://www.youtube.com/watch?v=Q3OSCYdVGX8 (your "runner" terminal in Wnidows)
+-   Go through oh-my-posh configuration learn how to customize (if it's really difficult and unproductive drop it)
+-   https://www.youtube.com/watch?v=5UaDpTJ3Ojc (Whatsapp Small projects, barely 10 min), pywhatkit is already installed
+-   Start Blogging your journey
+-   Make a chrome extension by reading the docs from chrome extension, it's suprisingly
+    easy and really interesting to do.
+-   MySQL server in Azure SUPER FAST :- https://www.youtube.com/watch?v=hZ1DASYd9rk&t=98s
+
+-   Powershell https://www.youtube.com/watch?v=UVUd9_k9C6A&t=5613s (FUN TO LEARN ALL THE BASH SCRIPTING LEANG AT THE SAME TIME LOLLL)
+
+-   https://www.youtube.com/watch?v=vQx8TE18P9c (customise powerlvl10k)
+
+-   Use GOogle Pay API to connect to your account and ahk or js to display info about how much u spend this day, week,month,
+    at this rate how much you'll spend in a year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

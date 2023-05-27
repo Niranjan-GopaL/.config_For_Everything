@@ -1,4 +1,5 @@
-[ 
+[
+
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
@@ -10,5 +11,201 @@
   {
     "key": "ctrl+shift+z",
     "command": "workbench.action.toggleStatusbarVisibility"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+o ctrl+p",
+    "command": "workbench.action.openApplicationSettingsJson"
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "workbench.action.openGlobalKeybindingsFile"
+  },
+  {
+    "key": "ctrl+shift+o ctrl+shift+p",
+    "command": "vim-cheatsheet.open"
+  },
+  {
+    "key": "ctrl+shift+oem_4 ctrl+shift+p",
+    "command": "learn-vim.openChapter"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+shif+g",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+shif+l",
+    "command": "workbench.action.navigateRight"
+  },
+{
+    "key": "ctrl+shift+' ctrl+shift+/",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "capslock capslock",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "escape",
+    "command": "-extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+shift+oem_2",
+    "command": "editor.action.toggleMinimap"
+  },
+  {
+    "key": "ctrl+shift+alt+r ctrl+shift+alt+n",
+    "command": "fileutils.renameFile"
+  },
+  {
+    "key": "ctrl+shift+f ctrl+shift+f",
+    "command": "fileutils.newFolder"
+  },
+  {
+    "key": "ctrl+shift+r ctrl+shift+r",
+    "command": "run.ahk",
+    "when": "editorLangId == 'ahk'"
+  },
+  {
+    "key": "ctrl+f9",
+    "command": "-run.ahk",
+    "when": "editorLangId == 'ahk'"
+  },
+  {
+    "key": "ctrl+shift+r ctrl+shift+r",
+    "command": "ahk2.run",
+    "when": "!editorHasSelection && editorLangId == 'ahk2' && resourceScheme == 'file'"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "-ahk2.run",
+    "when": "!editorHasSelection && editorLangId == 'ahk2' && resourceScheme == 'file'"
+  },
+  {
+    "key": "ctrl+shift+c ctrl+shift+c",
+    "command": "ahk2.compile",
+    "when": "editorLangId == 'ahk2' && resourceScheme == 'file'"
+  },
+  {
+    "key": "ctrl+shift+f5",
+    "command": "-ahk2.compile",
+    "when": "editorLangId == 'ahk2' && resourceScheme == 'file'"
+  },
+  {
+    "key": "ctrl+shift+s ctrl+shift+s",
+    "command": "ahk2.stop",
+    "when": "ahk2:isRunning && editorLangId == 'ahk2'"
+  },
+  {
+    "key": "ctrl+f6",
+    "command": "-ahk2.stop",
+    "when": "ahk2:isRunning && editorLangId == 'ahk2'"
+  },
+  {
+    "key": "ctrl+shift+alt+f ctrl+shift+alt+f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+shift+alt+1",
+    "command": "vscode-macros.user1"
+  },
+  {
+    "key": "ctrl+shift+alt+2",
+    "command": "vscode-macros.user2"
+  },
+  {
+    "key": "ctrl+shift+alt+3",
+    "command": "vscode-macros.user3"
+  },
+  {
+    "key": "ctrl+shift+alt+m",
+    "command": "glassit.increase"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "-glassit.increase"
+  },
+  {
+    "key": "ctrl+shift+alt+n",
+    "command": "glassit.decrease"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "-glassit.decrease"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "-editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "F3",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+        "id": "indentation_guide",
+        "value": [
+              {
+                "editor.guides.indentation": true
+              },
+              {
+                "editor.guides.indentation": false
+              }
+        ]
+    }
   }
 ]

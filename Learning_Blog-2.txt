@@ -1,0 +1,78 @@
+Алиса Удружева (Alisa Udruzheva)
+
+git add . && git commit -m "" && git push      ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+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 => MY PERSONAL ACCESS TOKEN FOR GITHUB for ssh
+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
+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 (latest)
+
+
+waka_afb5505a-68a4-4673-b186-c3c21d5b1e12 => Wakatime API key
+Wallpaper flare - crop to our screen resolution
+
+
+
+24-5-2023 Wednesday ---------------------------------------------------------------------------
+
+
+        VS Code
+
+    The inlay hint can be set of toggle by ctrl + alt 
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCw58TYoc2/TqgKeYEU6VBuqH88+uOxZQPsiFhA11U4utG
+jyIAK20XNOVJuWKN7HXvwKJO6CdwNSFObuEqqJL+cnSV0lsEiPPcukFPKnRjg8+/yhxEAknxVl7vgDWi23d
+JaMbd8iClSKuiTNbqPw4tkmfJMn/eBCv/QDIPi2xZGa6aH6PKboUquSBLQmVcbHJRIJcha61SH8pw9+YIrlN
+Bf848JCT14XVQn9ANBrE+vvGBAJUg7AiVCwng7GodUYK7AEoG5mLpWDSpe++xZNuzv+Zca00/m3U4NeOY3LgT
+BZViBK3isTkPdAgX9TZboUD8QDL91TbgHxrwUunmtE4fmbg/QNfnsPJAxtvNS2x9gqZJ7wy5biyCc8EXStAeBD
+68s6kXMpNwtljaeuNDQPy8qP5HfWFaqbgopRTOkDxosGbUOMAhKL8e1oNkd/rjyiQvzT0HEFc4TR+86nr+R5ptm
+8vNp5nAisUFry3oQSt3XxOKZ2pwy2btPT0lfC/T7S3k= niranjangopalpvl@gmail.com
+
+
+
+                        RUST ANALYSER ONLY ANALYSES main.rs and lib.rs 
+
+In order for it to analyse other files (IT SHOULD BE PART OF `MOD TREE` i.e
+
+
+in main.rs or lib.rs
+mod file1;
+
+use file1::function;)
+
+
+
+
+25-5-2023 Thursday ------------------------------------------------------------------------------------
+
+
+
+                        Git WORKFLOW IS AWESOME NOW
+
+gc  "commit whatever message you want to "   (Atomic commits are really good)
+gp 
+gs 
+
+these are aliases in .zshrc
+
+
+                    SOLVED ANOTHER FANTASTIC GIT PROBLEM  
+
+        "Git asks for password to push on WSL 2 (Ubuntu), but not on Windows. Why is that?"
+
+THIS ONE LINE SINGLE HANDEDLY SOLVED ALL MY PROBLEM: 
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
+
+
+Ans :- https://stackoverflow.com/questions/66503781/git-asks-for-password-to-push-on-wsl-2-ubuntu-but-not-on-windows-why-is-that
+
+THere is a credential helper which is one of the solution.
+Another is ssh creditials.
+
+
+
+
+27-5-2023 Saturday ------------------------------------------------------------------------------------
+
+
+                                Smooth scrolling and Smooth cursur in VS Code is insane
