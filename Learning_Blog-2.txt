@@ -1,14 +1,18 @@
 Алиса Удружева (Alisa Udruzheva)
 
+
 git add . && git commit -m "" && git push      ( DEPRECATED, BE COMFORTABLE WITH BUILT IN GIT INTEGRATION IN VSC )
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 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 => MY PERSONAL ACCESS TOKEN FOR GITHUB for ssh
 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
 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 (latest)
 
-
 waka_afb5505a-68a4-4673-b186-c3c21d5b1e12 => Wakatime API key
 Wallpaper flare - crop to our screen resolution
+
+#![allow(dead_code)]
+#![allow(unused_variables)]
+#![allow(non_snake_case)]
 
 
 
@@ -76,3 +80,31 @@ Another is ssh creditials.
 
 
                                 Smooth scrolling and Smooth cursur in VS Code is insane
+
+NOW I CAN'T STOP USING CTRL+ UP / DOWN  ========> ITS SOOOOO FUCKING SMOOTH GODDAMN
+
+
+                                Installed 3 really powerful extesnion in VS Code
+
+Error Lens (Screams err or in each line)
+Toggle (Helps to toggle setting for VS code)
+CodeLLDB (For debuggin in Rust)
+Draw.io   (INSANEEE NOW YOU CAN DIAGRAMATIZE THE LOGIC)
+
+
+F3  => Toggle the editor indentation guide [that is those lines that show at which indentation level you are]
+ctrl+shift l -> ctrl+shift e => toggles error lens
+
+------------->Smooth scrolling is awesome but i needed to scroll up and down QUIKER <-------------- VIMMMMMMMMMMMMM
+
+PageUp and PageDown finally
+I remapped it to NumPad1 and NumPad2 (klinda like j and k in vim ITS SOOOO FUCKING AWEEOME)
+
+
+3-6-2023 Saturday ------------------------------------------------------------------------------------
+
+Node unistalled in win64 completely and wsl.
+
+Reistalled in wsl
+
+any file in wsl file structure is now very quick with node
