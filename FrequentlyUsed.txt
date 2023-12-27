@@ -1,5 +1,5 @@
 
-BUILD A RUNNER just like alisha's ----------------------------------------
+BUILD A RUNNER just like alisa's ----------------------------------------
 
 a timer to focus on your breathing 
 open rust by Example
